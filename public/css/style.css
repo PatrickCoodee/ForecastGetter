@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana,
+    sans-serif;
+  line-height: 1.6em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+.main-header {
+  margin-top: 1rem;
+}
+
+img {
+  width: 500px;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #3498db;
+}
+
+.brand {
+  font-size: 2.5rem;
+}
+
+.link {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+li {
+  padding: 0 1.3rem;
+}
+
+li a {
+  font-size: 1.2rem;
+}
+
+.forcast-form {
+  margin-top: 3rem;
+}
+
+.alert-error {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 0;
+  background-color: red;
+  text-transform: uppercase;
+}
+
+#loc-search {
+  padding: 8px;
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 1.3rem;
+}
+.forecast ul {
+  list-style: none;
+}
+
+.forecast-item {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 10px 0;
+}
+
+.forecast-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  background-color: #3498db;
+  color: #000;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  background-color: #777;
+  color: black;
+  padding: 1rem;
+}
